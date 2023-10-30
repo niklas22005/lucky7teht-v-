@@ -40,8 +40,17 @@ public class lucky7 {
                            System.out.println("Sait numerot " + nro1 + ", " + nro2 + " ja " + nro3 + ". Hävisit pelin");
                            System.out.println("Rahaa jäljellä " + money);
                    }
-	
-		
+	       System.out.println("Haluatko pelata uudestaan?");
+                   System.out.println("Jos haluat pelata, paina Enter");
+                   System.out.println("Jos et halua pelata, kirjoita e ja paina Enter");
+                   String vastaus = scanner.nextLine();
+                   if(vastaus.equals("e")){
+                           System.out.println("Kiitos peleistä. Sinulle jäi rahaa " + money + " euroa");
+                           System.exit(0);
+                   }
+           }
+           System.out.println("Rahasi loppuivat");
+
 
 	}
 
