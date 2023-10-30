@@ -16,7 +16,6 @@ public class lucky7 {
            int money = Integer.parseInt(scanner.nextLine());
 
 
-   }	
 	           while(money > 0) {
                    money--;
                    nro1 = rand.nextInt(10) + 1;
@@ -50,7 +49,7 @@ public class lucky7 {
                    }
            }
            System.out.println("Rahasi loppuivat");
-
+	}
 
 	}
 
